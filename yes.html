@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width-device-width, initial-scale-1">
+        <link rel="stylesheet" href="./yes.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+        <title>Virtual Valentine's Day Card</title>
+    </head> 
+    <body>
+        <h1 class="valentine">Happy Valentine's Day Baby!</h1>
+        <div class="gif_container">
+            <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYXkzZ2lrbHdyODc1MXh6eGJuODZwdTc5eGszbDg5amh1M29nMW1rYiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xT3i0VQ2zYr9AVVEhW/giphy.gif" alt="hello kitty one"
+            height="150">
+        </div>
+        <div class="gif">
+            <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHAwdWVudHZxbTA1MzZuamt2djd5cnljM2R3Z2h3NHhicmtyajR3YyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/12WoP3M6zYupUs/giphy.gif" alt="hello kitty two"
+            height="150">
+        </div>
+        <div class="envelope-wrapper">
+            <div id ="envelope" class="close">
+            <div class="front flap"></div>
+            <div class="front pocket"></div>
+            <div class ="letter">
+                <p class= "words line1"> Hello Baby,</p>
+                <p class= "words line2">I hope you like this letter! I thought I'd share this moment with you for Valentine's Day and me making a website from scratch! I wanted to say that I love you so much, I know we had a touchy convo recently but I couldn't be happier with you. I'm happy and blessed to be with someone who's curious, funny, bold, and honest. You've taught me how to love and be kinder to those around me. Youve also taught me to have better taste in music LOL, but I'm so happy to be around you, your energy is so playful and calming. I can't help but cheese all the time. AA I love so much. I'm running out of space but be sure to click the flowers!!</p>
+            </div>
+            <div class="hearts">
+                <div class="heart a1"></div>
+                <div class="heart a2"></div>
+                <div class="heart a3"></div>
+            </div>
+            </div>
+        </div>
+        <div class="reset">
+            <button id="open">Open</button>
+            <button id="reset">Reset</button>
+        </div>
+    </body> 
+    <div class="flowers">
+        <button class="btn" id = "flowerbtn" onclick="nextPage()">Flowers!</button>
+        <script>
+            function nextPage() {
+                window.location.href = "flowers.html";
+            }
+        </script>
+        <script src="index.js"></script>
+    </div>
+</html>
